@@ -1,0 +1,41 @@
+name: Generate weekly post
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate post
+        run: node scripts/generate-post.js
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Commit and PR
+        run: |
+          git config user.name "VV Bot"
+          git config user.email "bot@veilandvoyage.com"
+          BRANCH="post/$(date +%Y-%m-%d)"
+          git checkout -b $BRANCH
+          git add content/posts/
+          git diff --staged --quiet || git commit -m "Draft post $(date +%Y-%m-%d)"
+          git push origin $BRANCH
+
+      - uses: peter-evans/create-pull-request@v6
+        with:
+          title: "New draft post — review and merge to publish"
+          body: "Claude has written a new post draft. Review, add affiliate links, change draft to false, then merge."
+          base: main
+          labels: content-draft
