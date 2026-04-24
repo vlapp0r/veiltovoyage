@@ -1,6 +1,6 @@
-baseURL = "https://veilandvoyage.com/"
+baseURL = "https://veiltovoyage.com/"
 languageCode = "en-us"
-title = "Veil & Voyage"
+title = "Veil to Voyage"
 theme = "PaperMod"
 paginate = 10
 enableRobotsTXT = true
@@ -8,7 +8,7 @@ buildDrafts = false
 
 [params]
   description = "Wedding planning guides, honeymoon destinations, and honest budget advice for newly engaged couples."
-  author = "Veil & Voyage"
+  author = "Veil to Voyage"
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
@@ -23,7 +23,7 @@ buildDrafts = false
 
   [[params.socialIcons]]
     name = "pinterest"
-    url = "https://pinterest.com/veilandvoyage"
+    url = "https://pinterest.com/veiltovoyage"
 
 [menu]
   [[menu.main]]
