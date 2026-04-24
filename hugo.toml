@@ -6,6 +6,8 @@ paginate = 10
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
+canonifyURLs = false
+relativeURLs = false
 
 [params]
   env = "production"
@@ -36,27 +38,27 @@ buildFuture = false
   [[menu.main]]
     identifier = "wedding"
     name = "Wedding"
-    url = "/categories/wedding-planning/"
+    url = "https://vlapp0r.github.io/veiltovoyage/categories/wedding-planning/"
     weight = 1
   [[menu.main]]
     identifier = "honeymoon"
     name = "Honeymoon"
-    url = "/categories/honeymoon-travel/"
+    url = "https://vlapp0r.github.io/veiltovoyage/categories/honeymoon-travel/"
     weight = 2
   [[menu.main]]
     identifier = "registry"
     name = "Registry"
-    url = "/categories/registry/"
+    url = "https://vlapp0r.github.io/veiltovoyage/categories/registry/"
     weight = 3
   [[menu.main]]
     identifier = "budget"
     name = "Budget"
-    url = "/categories/budget/"
+    url = "https://vlapp0r.github.io/veiltovoyage/categories/budget/"
     weight = 4
   [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "/about/"
+    url = "https://vlapp0r.github.io/veiltovoyage/about/"
     weight = 5
 
 [taxonomies]
