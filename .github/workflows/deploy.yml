@@ -7,13 +7,17 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: true
           fetch-depth: 0
+
+      - name: Install PaperMod theme
+        run: git clone https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod --depth=1
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
