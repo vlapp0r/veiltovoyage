@@ -21,8 +21,7 @@ buildFuture = false
   ShowCodeCopyButtons = false
   ShowRssButtonInSectionTermList = true
   dateFormat = "January 2, 2006"
-  customCSS = ["css/custom.css"]
-  customJS  = ["js/scroll-theme.js"]
+
 
   [params.homeInfoParams]
     Title = "From \"I do\" to the honeymoon"
