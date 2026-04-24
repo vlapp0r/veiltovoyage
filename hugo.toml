@@ -1,0 +1,52 @@
+baseURL = "https://veilandvoyage.com/"
+languageCode = "en-us"
+title = "Veil & Voyage"
+theme = "PaperMod"
+paginate = 10
+enableRobotsTXT = true
+buildDrafts = false
+
+[params]
+  description = "Wedding planning guides, honeymoon destinations, and honest budget advice for newly engaged couples."
+  author = "Veil & Voyage"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "light"
+  DateFormat = "January 2, 2006"
+
+  [params.homeInfoParams]
+    Title = "From \"I do\" to the honeymoon"
+    Content = "Real planning guides, honeymoon inspiration, and honest budget advice for newly engaged couples."
+
+  [[params.socialIcons]]
+    name = "pinterest"
+    url = "https://pinterest.com/veilandvoyage"
+
+[menu]
+  [[menu.main]]
+    name = "Wedding"
+    url = "/categories/wedding-planning/"
+    weight = 1
+  [[menu.main]]
+    name = "Honeymoon"
+    url = "/categories/honeymoon-travel/"
+    weight = 2
+  [[menu.main]]
+    name = "Registry"
+    url = "/categories/registry/"
+    weight = 3
+  [[menu.main]]
+    name = "Budget"
+    url = "/categories/budget/"
+    weight = 4
+  [[menu.main]]
+    name = "About"
+    url = "/pages/about/"
+    weight = 5
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
