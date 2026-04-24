@@ -21,7 +21,8 @@ buildFuture = false
   ShowCodeCopyButtons = false
   ShowRssButtonInSectionTermList = true
   dateFormat = "January 2, 2006"
-
+  mainSections = ["posts"]
+  ShowAllPagesInArchive = true
 
   [params.homeInfoParams]
     Title = "From \"I do\" to the honeymoon"
@@ -35,27 +36,27 @@ buildFuture = false
   [[menu.main]]
     identifier = "wedding"
     name = "Wedding"
-    url = "/veiltovoyage/categories/wedding-planning/"
+    url = "/categories/wedding-planning/"
     weight = 1
   [[menu.main]]
     identifier = "honeymoon"
     name = "Honeymoon"
-    url = "/veiltovoyage/categories/honeymoon-travel/"
+    url = "/categories/honeymoon-travel/"
     weight = 2
   [[menu.main]]
     identifier = "registry"
     name = "Registry"
-    url = "/veiltovoyage/categories/registry/"
+    url = "/categories/registry/"
     weight = 3
   [[menu.main]]
     identifier = "budget"
     name = "Budget"
-    url = "/veiltovoyage/categories/budget/"
+    url = "/categories/budget/"
     weight = 4
   [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "/veiltovoyage/about/"
+    url = "/about/"
     weight = 5
 
 [taxonomies]
