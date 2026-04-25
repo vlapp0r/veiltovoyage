@@ -456,3 +456,14 @@ body.voyage-mode .footer a { color: var(--voyage-ocean) !important; }
   .post-entry { padding: 1.25rem 1.5rem; }
   .entry-header h2 { font-size: 1.3rem; }
 }
+/* Make entire post card clickable */
+.post-entry {
+  position: relative;
+}
+
+.post-entry .entry-header h2 a::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
