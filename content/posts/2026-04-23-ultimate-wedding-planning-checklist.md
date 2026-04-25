@@ -107,5 +107,8 @@ keep 10% for surprises. Something always comes up.
 
 ---
 
-*Download our free printable version of this checklist →*
-[Get the free PDF checklist](#) *(link coming soon — sign up to be notified)*
+<a href="/veiltovoyage/downloads/wedding-checklist.pdf" 
+   download="veil-to-voyage-wedding-checklist.pdf"
+   style="display:inline-block;background:#D4537E;color:#fff;padding:12px 28px;border-radius:24px;text-decoration:none;font-size:14px;letter-spacing:0.05em">
+  ⬇ Download the Free Wedding Checklist
+</a>
