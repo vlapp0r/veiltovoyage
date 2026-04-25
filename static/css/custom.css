@@ -462,28 +462,15 @@ body.voyage-mode .footer a { color: var(--voyage-ocean) !important; }
   cursor: pointer;
 }
 
-.post-entry a.entry-link {
-  position: static;
-}
-
-.post-entry .entry-header h2 a {
-  position: static;
-}
-
-.post-entry .entry-header h2 a::after {
-  content: '';
+.post-entry .entry-link {
   position: absolute;
   inset: 0;
   z-index: 10;
-  cursor: pointer;
 }
 
-.post-entry * {
+.post-entry .entry-header h2 a,
+.post-entry .entry-footer a,
+.post-entry .entry-tags a {
   position: relative;
-  z-index: 0;
-}
-
-.post-entry .entry-header h2 {
-  position: relative;
-  z-index: 0;
+  z-index: 11;
 }
