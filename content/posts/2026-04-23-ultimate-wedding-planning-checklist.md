@@ -39,7 +39,7 @@ This is your foundation phase. Decisions made here shape everything else.
 - Begin **dress shopping** — allow 6+ months for alterations.
 - Book your **officiant**.
 - Start planning your **honeymoon** — peak season destinations need
-  early booking. See our [honeymoon destination guide](/posts/).
+  early booking. See our [honeymoon destination guide](/posts/2026-04-25-best-honeymoon-destinations-under-3000/).
 
 ## 9–6 months before
 
