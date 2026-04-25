@@ -457,20 +457,25 @@ body.voyage-mode .footer a { color: var(--voyage-ocean) !important; }
   .entry-header h2 { font-size: 1.3rem; }
 }
 /* Make entire post card clickable */
-.post-entry {
+article.post-entry {
   position: relative;
   cursor: pointer;
 }
 
-.post-entry .entry-link {
+article.post-entry .entry-link {
   position: absolute;
-  inset: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   z-index: 10;
 }
 
-.post-entry .entry-header h2 a,
-.post-entry .entry-footer a,
-.post-entry .entry-tags a {
+article.post-entry .entry-header,
+article.post-entry .entry-content,
+article.post-entry .entry-footer,
+article.post-entry .entry-tags {
   position: relative;
-  z-index: 11;
+  z-index: 0;
+  pointer-events: none;
 }
