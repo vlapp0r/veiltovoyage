@@ -39,7 +39,7 @@ This is your foundation phase. Decisions made here shape everything else.
 - Begin **dress shopping** — allow 6+ months for alterations.
 - Book your **officiant**.
 - Start planning your **honeymoon** — peak season destinations need
-  early booking. See our [honeymoon destination guide](/veiltovoyage/posts/2026-04-25-best-honeymoon-destinations-under-3000/).
+  early booking. See our [honeymoon destination guide](/posts/2026-04-25-best-honeymoon-destinations-under-3000/).
 
 ## 9–6 months before
 
@@ -107,7 +107,7 @@ keep 10% for surprises. Something always comes up.
 
 ---
 
-<a href="/veiltovoyage/downloads/wedding-checklist.pdf" 
+<a href="/downloads/wedding-checklist.pdf" 
    download="veil-to-voyage-wedding-checklist.pdf"
    style="display:inline-block;background:#D4537E;color:#fff;padding:12px 28px;border-radius:24px;text-decoration:none;font-size:14px;letter-spacing:0.05em">
   ⬇ Download the Free Wedding Checklist
