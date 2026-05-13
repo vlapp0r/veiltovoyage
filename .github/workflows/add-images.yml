@@ -1,0 +1,82 @@
+name: Add images to post
+
+on:
+  # Trigger automatically after generate-post workflow completes
+  workflow_run:
+    workflows: ["Generate weekly post"]
+    types: [completed]
+
+  # Manual trigger with optional post name
+  workflow_dispatch:
+    inputs:
+      post_slug:
+        description: 'Post filename or part of it (leave blank for latest)'
+        required: false
+        default: 'latest'
+
+  # Trigger via GitHub API (used by admin page)
+  repository_dispatch:
+    types: [add-images]
+
+jobs:
+  add-images:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' || github.event_name == 'repository_dispatch' }}
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Determine target post
+        id: target
+        run: |
+          if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+            echo "post=${{ github.event.client_payload.post_slug }}" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "post=${{ github.event.inputs.post_slug }}" >> $GITHUB_OUTPUT
+          else
+            echo "post=latest" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Add images to post
+        run: node scripts/add-images.js
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          TARGET_POST: ${{ steps.target.outputs.post }}
+
+      - name: Create pull request with images
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Add images to post"
+          branch: images/auto-${{ github.run_number }}
+          delete-branch: true
+          title: "Images added — review and merge to publish"
+          body: |
+            Images have been automatically added to a post.
+
+            **Before merging:**
+            - Check the images look right and fit the content
+            - Verify image credits are shown correctly
+            - Merge to publish the updated post
+
+            Images sourced from Unsplash and Pexels (copyright-free, commercial use allowed).
+          base: main
+          labels: images
+          add-paths: |
+            content/posts/*.md
+            static/images/**
+            scripts/last-image-run.json
