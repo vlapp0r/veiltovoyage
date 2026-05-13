@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Veil to Voyage — Admin</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Jost:wght@300;400;500&display=swap');
+
+  *{box-sizing:border-box;margin:0;padding:0}
+
+  body {
+    font-family:'Jost',sans-serif;
+    font-weight:300;
+    background:#FAF7F4;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:2rem;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none'%3E%3Cg fill='%23D4537E' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  .card {
+    background:white;
+    border-radius:16px;
+    padding:2.5rem 2rem;
+    width:100%;
+    max-width:440px;
+    border:0.5px solid rgba(212,83,126,0.2);
+    box-shadow:0 8px 40px rgba(212,83,126,0.08);
+  }
+
+  .logo {
+    font-family:'Cormorant Garamond',serif;
+    font-style:italic;
+    font-size:1.8rem;
+    color:#72243E;
+    text-align:center;
+    margin-bottom:4px;
+  }
+
+  .tagline {
+    font-size:0.72rem;
+    letter-spacing:0.12em;
+    text-transform:uppercase;
+    color:#888780;
+    text-align:center;
+    margin-bottom:2rem;
+  }
+
+  .divider {
+    height:0.5px;
+    background:linear-gradient(90deg,transparent,#D4537E,transparent);
+    margin-bottom:2rem;
+  }
+
+  /* LOGIN */
+  #login-view, #admin-view { display:none; }
+  #login-view.active, #admin-view.active { display:block; }
+
+  .field-label {
+    font-size:0.72rem;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:#888780;
+    margin-bottom:6px;
+    display:block;
+  }
+
+  input[type="password"], input[type="text"], select {
+    width:100%;
+    border:0.5px solid rgba(212,83,126,0.3);
+    border-radius:8px;
+    padding:10px 14px;
+    font-family:'Jost',sans-serif;
+    font-size:13px;
+    color:#2C2C2A;
+    background:#FAF7F4;
+    margin-bottom:1.25rem;
+    outline:none;
+    transition:border-color 0.2s;
+  }
+
+  input:focus, select:focus { border-color:#D4537E; }
+
+  .btn {
+    width:100%;
+    background:#D4537E;
+    color:white;
+    border:none;
+    border-radius:24px;
+    padding:11px;
+    font-family:'Jost',sans-serif;
+    font-size:13px;
+    font-weight:500;
+    letter-spacing:0.05em;
+    cursor:pointer;
+    transition:background 0.2s, transform 0.1s;
+  }
+
+  .btn:hover { background:#C04470; }
+  .btn:active { transform:scale(0.98); }
+  .btn:disabled { background:#ccc; cursor:not-allowed; }
+
+  .btn-ghost {
+    background:transparent;
+    color:#D4537E;
+    border:1px solid #D4537E;
+    margin-top:10px;
+  }
+
+  .btn-ghost:hover { background:#FBEAF0; }
+
+  .error {
+    background:#FBEAF0;
+    color:#72243E;
+    border-radius:8px;
+    padding:10px 14px;
+    font-size:12px;
+    margin-bottom:1rem;
+    display:none;
+  }
+
+  .success {
+    background:#E1F5EE;
+    color:#085041;
+    border-radius:8px;
+    padding:10px 14px;
+    font-size:12px;
+    margin-bottom:1rem;
+    display:none;
+    line-height:1.5;
+  }
+
+  .section-title {
+    font-size:0.72rem;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:#D4537E;
+    margin-bottom:1rem;
+    font-weight:500;
+  }
+
+  .post-option {
+    background:#FAF7F4;
+    border:0.5px solid rgba(212,83,126,0.2);
+    border-radius:10px;
+    padding:12px 14px;
+    margin-bottom:8px;
+    cursor:pointer;
+    transition:all 0.15s;
+    position:relative;
+  }
+
+  .post-option:hover { border-color:#D4537E; background:#FBEAF0; }
+  .post-option.selected { border-color:#D4537E; background:#FBEAF0; }
+  .post-option.selected::after {
+    content:'✓';
+    position:absolute;
+    right:14px;
+    top:50%;
+    transform:translateY(-50%);
+    color:#D4537E;
+    font-weight:500;
+  }
+
+  .post-name { font-size:13px; color:#2C2C2A; font-weight:400; }
+  .post-date { font-size:11px; color:#888780; margin-top:2px; }
+
+  .spinner {
+    display:inline-block;
+    width:16px;
+    height:16px;
+    border:2px solid rgba(255,255,255,0.3);
+    border-top-color:white;
+    border-radius:50%;
+    animation:spin 0.8s linear infinite;
+    vertical-align:middle;
+    margin-right:6px;
+  }
+
+  @keyframes spin { to { transform:rotate(360deg); } }
+
+  .log-box {
+    background:#FAF7F4;
+    border:0.5px solid rgba(212,83,126,0.2);
+    border-radius:8px;
+    padding:12px;
+    font-family:monospace;
+    font-size:11px;
+    color:#444;
+    max-height:120px;
+    overflow-y:auto;
+    margin-top:10px;
+    display:none;
+    line-height:1.6;
+  }
+
+  .info-row {
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-size:11px;
+    color:#888780;
+    margin-top:1.5rem;
+    padding-top:1rem;
+    border-top:0.5px solid rgba(212,83,126,0.15);
+  }
+
+  .dot { width:6px;height:6px;border-radius:50%;background:#1D9E75;flex-shrink:0; }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="logo">Veil to Voyage</div>
+  <div class="tagline">Content Admin</div>
+  <div class="divider"></div>
+
+  <!-- LOGIN -->
+  <div id="login-view" class="active">
+    <div class="error" id="login-error">Wrong password. Try again.</div>
+    <label class="field-label" for="pw">Password</label>
+    <input type="password" id="pw" placeholder="Enter password" onkeydown="if(event.key==='Enter')login()">
+    <button class="btn" onclick="login()">Sign in</button>
+  </div>
+
+  <!-- ADMIN -->
+  <div id="admin-view">
+    <div class="section-title">Add images to a post</div>
+
+    <div class="error" id="admin-error"></div>
+    <div class="success" id="admin-success"></div>
+
+    <label class="field-label">GitHub details</label>
+    <input type="text" id="gh-owner" placeholder="GitHub username (e.g. vlapp0r)" value="vlapp0r">
+    <input type="text" id="gh-repo" placeholder="Repository name (e.g. veiltovoyage)" value="veiltovoyage">
+    <input type="password" id="gh-token" placeholder="GitHub Personal Access Token">
+
+    <label class="field-label">Select post or enter slug</label>
+    <input type="text" id="post-slug" placeholder="e.g. best-honeymoon-destinations or leave blank for latest">
+
+    <div id="quick-posts" style="margin-bottom:1.25rem">
+      <div class="post-option" onclick="selectPost(this,'latest')">
+        <div class="post-name">✨ Latest post (most recently generated)</div>
+        <div class="post-date">Auto-detect newest post</div>
+      </div>
+      <div class="post-option" onclick="selectPost(this,'honeymoon')">
+        <div class="post-name">Best Honeymoon Destinations Under $3000</div>
+        <div class="post-date">2026-04-25</div>
+      </div>
+      <div class="post-option" onclick="selectPost(this,'checklist')">
+        <div class="post-name">Ultimate Wedding Planning Checklist</div>
+        <div class="post-date">2026-04-23</div>
+      </div>
+    </div>
+
+    <button class="btn" id="run-btn" onclick="runWorkflow()">
+      Add images to selected post
+    </button>
+    <button class="btn btn-ghost" onclick="logout()">Sign out</button>
+
+    <div class="log-box" id="log-box"></div>
+
+    <div class="info-row">
+      <span class="dot"></span>
+      <span>Images sourced from Unsplash + Pexels. A pull request will open in GitHub for your review before anything goes live.</span>
+    </div>
+  </div>
+</div>
+
+<script>
+const PASS = 'herecomesthepicture';
+
+function login() {
+  const val = document.getElementById('pw').value;
+  if (val === PASS) {
+    document.getElementById('login-view').classList.remove('active');
+    document.getElementById('admin-view').classList.add('active');
+    document.getElementById('login-error').style.display = 'none';
+    // Check for saved token
+    const saved = sessionStorage.getItem('gh_token');
+    if (saved) document.getElementById('gh-token').value = saved;
+  } else {
+    document.getElementById('login-error').style.display = 'block';
+    document.getElementById('pw').value = '';
+    document.getElementById('pw').focus();
+  }
+}
+
+function logout() {
+  document.getElementById('admin-view').classList.remove('active');
+  document.getElementById('login-view').classList.add('active');
+  document.getElementById('pw').value = '';
+  sessionStorage.removeItem('gh_token');
+}
+
+function selectPost(el, slug) {
+  document.querySelectorAll('.post-option').forEach(p => p.classList.remove('selected'));
+  el.classList.add('selected');
+  document.getElementById('post-slug').value = slug;
+}
+
+function log(msg) {
+  const box = document.getElementById('log-box');
+  box.style.display = 'block';
+  box.innerHTML += msg + '\n';
+  box.scrollTop = box.scrollHeight;
+}
+
+async function runWorkflow() {
+  const owner  = document.getElementById('gh-owner').value.trim();
+  const repo   = document.getElementById('gh-repo').value.trim();
+  const token  = document.getElementById('gh-token').value.trim();
+  const slug   = document.getElementById('post-slug').value.trim() || 'latest';
+  const errEl  = document.getElementById('admin-error');
+  const sucEl  = document.getElementById('admin-success');
+  const btn    = document.getElementById('run-btn');
+
+  errEl.style.display = 'none';
+  sucEl.style.display = 'none';
+  document.getElementById('log-box').innerHTML = '';
+
+  if (!token) {
+    errEl.textContent = 'Please enter your GitHub Personal Access Token.';
+    errEl.style.display = 'block';
+    return;
+  }
+
+  // Save token for session
+  sessionStorage.setItem('gh_token', token);
+
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span> Triggering workflow...';
+  log('→ Sending request to GitHub Actions...');
+
+  try {
+    const res = await fetch(
+      `https://api.github.com/repos/${owner}/${repo}/dispatches`,
+      {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/vnd.github+json',
+          'Authorization': `Bearer ${token}`,
+          'Content-Type': 'application/json',
+          'X-GitHub-Api-Version': '2022-11-28'
+        },
+        body: JSON.stringify({
+          event_type: 'add-images',
+          client_payload: { post_slug: slug }
+        })
+      }
+    );
+
+    if (res.status === 204) {
+      log('✓ Workflow triggered successfully');
+      log(`✓ Processing post: "${slug}"`);
+      log('→ Claude is selecting image placements...');
+      log('→ Downloading from Unsplash + Pexels...');
+      log('→ A pull request will open in ~2 minutes');
+      sucEl.innerHTML = `
+        <strong>Workflow started!</strong><br>
+        Check your <a href="https://github.com/${owner}/${repo}/actions" target="_blank" style="color:#085041">GitHub Actions tab</a>
+        to watch progress, then review and merge the
+        <a href="https://github.com/${owner}/${repo}/pulls" target="_blank" style="color:#085041">pull request</a>
+        when it's ready.
+      `;
+      sucEl.style.display = 'block';
+    } else {
+      const body = await res.text();
+      throw new Error(`GitHub API returned ${res.status}: ${body}`);
+    }
+  } catch (e) {
+    log('✗ Error: ' + e.message);
+    errEl.textContent = 'Error: ' + e.message + ' — Make sure your token has repo + workflow scope.';
+    errEl.style.display = 'block';
+  }
+
+  btn.disabled = false;
+  btn.innerHTML = 'Add images to selected post';
+}
+</script>
+</body>
+</html>
