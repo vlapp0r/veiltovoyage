@@ -7,6 +7,10 @@ tags: ["checklist", "planning", "engagement", "timeline"]
 draft: false
 ---
 
+
+![Newly engaged couple celebrating with ring](/images/posts/2026-04-23-ultimate-wedding-planning-checklist/image-1.jpg)
+*Photo by Andre Jackson on Unsplash*
+
 *This post contains affiliate links. We may earn a commission at no extra cost to you.*
 
 Getting engaged is one of the most exciting moments of your life.
@@ -17,6 +21,10 @@ yes to the moment you're on your honeymoon — in the order they actually
 need to happen.
 
 ## 18–12 months before the wedding
+
+![Elegant wedding venue interior with decorative lighting](/images/posts/2026-04-23-ultimate-wedding-planning-checklist/image-2.jpg)
+*Photo by Abby Savage on Unsplash*
+
 
 This is your foundation phase. Decisions made here shape everything else.
 
@@ -42,6 +50,10 @@ This is your foundation phase. Decisions made here shape everything else.
   early booking. See our [honeymoon destination guide](/posts/2026-04-25-best-honeymoon-destinations-under-3000/).
 
 ## 9–6 months before
+
+![Stylish wedding save the date stationery flat lay](/images/posts/2026-04-23-ultimate-wedding-planning-checklist/image-3.jpg)
+*Photo by micheile henderson on Unsplash*
+
 
 - Send **save the dates**.
 - Book **hair and makeup** artists.
