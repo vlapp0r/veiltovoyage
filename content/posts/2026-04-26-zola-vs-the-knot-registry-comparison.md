@@ -7,11 +7,19 @@ tags: ["zola registry", "the knot registry", "wedding registry comparison", "reg
 draft: false
 ---
 
+
+![Couple comparing wedding registry options on a laptop](/images/posts/2026-04-26-zola-vs-the-knot-registry-comparison/image-1.jpg)
+*Photo by bruce mars on Unsplash*
+
 Choosing where to build your wedding registry feels like it should be the fun part of wedding planning — and honestly, it can be. But when you sit down to actually compare platforms, the differences between Zola and The Knot start to blur together fast. Both are reputable, both are free to use, and both have millions of products. So how do you actually choose? I've dug into the details on both platforms so you don't have to spend three hours in a rabbit hole of fine print. Here's the real, honest breakdown.
 
 ---
 
 ## What Each Platform Is (and Who It's Built For)
+
+![Elegant wedding gift registry display with wrapped presents](/images/posts/2026-04-26-zola-vs-the-knot-registry-comparison/image-2.jpg)
+*Photo by Zetong Li on Unsplash*
+
 
 Before we get into the feature-by-feature comparison, it helps to understand the origin story of each platform — because it shapes everything about how they work.
 
@@ -24,6 +32,10 @@ Before we get into the feature-by-feature comparison, it helps to understand the
 ---
 
 ## Registry Features: Where They Differ Most
+
+![Couple browsing and selecting wedding registry items online](/images/posts/2026-04-26-zola-vs-the-knot-registry-comparison/image-3.jpg)
+*Photo by Vitaly Gariev on Unsplash*
+
 
 This is where the comparison gets really interesting, because the gap between the two platforms is more significant than most couples expect.
 
