@@ -8,6 +8,10 @@ draft: false
 ---
 
 
+![Couple sitting together planning their honeymoon on a laptop](/images/posts/2026-05-18-wedding-registry-alternatives-honeymoon-fund/image-1.jpg)
+*Photo by Samsung Memory on Unsplash*
+
+
 ![Couple sitting together planning their honeymoon trip on a laptop](/images/posts/2026-05-18-wedding-registry-alternatives-honeymoon-fund/image-1.jpg)
 *Photo by Siednji Leon on Unsplash*
 
@@ -16,6 +20,10 @@ You already own a perfectly good blender. You've lived together for three years,
 ---
 
 ## Why Traditional Registries Don't Work for Every Couple
+
+![Luxury overwater bungalow surrounded by turquoise water in the Maldives](/images/posts/2026-05-18-wedding-registry-alternatives-honeymoon-fund/image-2.jpg)
+*Photo by Matheen Faiz on Unsplash*
+
 
 ![Luxury overwater bungalow surrounded by turquoise water in the Maldives](/images/posts/2026-05-18-wedding-registry-alternatives-honeymoon-fund/image-2.jpg)
 *Photo by Matheen Faiz on Unsplash*
@@ -35,6 +43,10 @@ The good news is that wedding registry alternatives have become completely mains
 ---
 
 ## What Is a Honeymoon Fund Registry, Exactly?
+
+![Couple enjoying a relaxing spa treatment at a tropical resort](/images/posts/2026-05-18-wedding-registry-alternatives-honeymoon-fund/image-3.jpg)
+*Photo by Blake Wisz on Unsplash*
+
 
 ![Couple enjoying a relaxing spa treatment at a tropical resort](/images/posts/2026-05-18-wedding-registry-alternatives-honeymoon-fund/image-3.jpg)
 *Photo by Blake Wisz on Unsplash*
