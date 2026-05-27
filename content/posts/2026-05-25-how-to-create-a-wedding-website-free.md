@@ -7,11 +7,19 @@ tags: ["wedding website", "free wedding website", "wedding planning tips", "wedd
 draft: false
 ---
 
+
+![Couple planning their wedding on a laptop](/images/posts/2026-05-25-how-to-create-a-wedding-website-free/image-1.jpg)
+*Photo by Toa Heftiba on Unsplash*
+
 You've said yes, you've called your mom, and now everyone — and we mean *everyone* — wants to know the details. Where is it? When is it? Can they bring a plus-one? Before the texts pile up and your inbox becomes a part-time job, a wedding website is the single best tool for getting your guests on the same page. The good news? You absolutely do not need to spend a dime to create one. This guide walks you through exactly how to create a wedding website free, what to put on it, and how to make it feel like *you* — not just another generic template.
 
 ---
 
 ## Why You Actually Need a Wedding Website
+
+![Wedding invitation and RSVP cards on a table](/images/posts/2026-05-25-how-to-create-a-wedding-website-free/image-2.jpg)
+*Photo by Stacey Vandas on Unsplash*
+
 
 Let's be honest: paper invitations are beautiful, but they have limits. There's only so much you can fit on a card before it starts looking like a legal document. A wedding website gives you unlimited space to share the information your guests actually need — without the postage costs.
 
@@ -28,6 +36,10 @@ The bottom line: a wedding website saves you time, reduces back-and-forth commun
 ---
 
 ## Choosing the Right Free Wedding Website Platform
+
+![Wedding website template displayed on a computer screen](/images/posts/2026-05-25-how-to-create-a-wedding-website-free/image-3.jpg)
+*Photo by Walls.io on Unsplash*
+
 
 Not all free website builders are created equal. Some slap a giant ad banner across your header. Others hide their best templates behind a paywall. Here's what to look for before you commit:
 
