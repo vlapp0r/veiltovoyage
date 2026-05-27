@@ -8,11 +8,19 @@ draft: false
 ---
 
 
+![Couple excitedly packing luggage for their honeymoon trip](/images/posts/2026-05-18-wedding-registry-alternatives-honeymoon-fund/image-1.jpg)
+*Photo by Surface on Unsplash*
+
+
 You already own a perfectly good blender. You've lived together for three years, your kitchen is stocked, and the last thing you need is a set of monogrammed towels arriving in a box the size of a small car. Sound familiar? More couples than ever are skipping the traditional registry in favor of something far more meaningful — a honeymoon fund. And honestly? It makes complete sense. Instead of accumulating stuff, you're collecting experiences, memories, and the kind of trip you'll talk about for the next fifty years. If you're curious about wedding registry alternatives and whether a honeymoon fund is right for you, grab a coffee and settle in. We're going to walk through everything you need to know.
 
 ---
 
 ## Why Traditional Registries Don't Work for Every Couple
+
+![Luxury overwater bungalow surrounded by turquoise water in the Maldives](/images/posts/2026-05-18-wedding-registry-alternatives-honeymoon-fund/image-2.jpg)
+*Photo by Upgraded Points on Unsplash*
+
 
 
 
@@ -34,6 +42,10 @@ The good news is that wedding registry alternatives have become completely mains
 ---
 
 ## What Is a Honeymoon Fund Registry, Exactly?
+
+![Couple enjoying a relaxing spa treatment at a tropical resort](/images/posts/2026-05-18-wedding-registry-alternatives-honeymoon-fund/image-3.jpg)
+*Photo by Luis Zambrano on Pexels*
+
 
 
 ![Couple enjoying a relaxing spa treatment at a tropical resort](/images/posts/2026-05-18-wedding-registry-alternatives-honeymoon-fund/image-3.jpg)
