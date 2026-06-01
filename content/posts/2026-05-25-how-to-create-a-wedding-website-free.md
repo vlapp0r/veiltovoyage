@@ -8,6 +8,10 @@ draft: false
 ---
 
 
+![Couple creating their wedding website on a laptop](/images/posts/2026-05-25-how-to-create-a-wedding-website-free/image-1.jpg)
+*Photo by bruce mars on Unsplash*
+
+
 ![Couple planning their wedding on a laptop](/images/posts/2026-05-25-how-to-create-a-wedding-website-free/image-1.jpg)
 *Photo by Toa Heftiba on Unsplash*
 
@@ -16,6 +20,10 @@ You've said yes, you've called your mom, and now everyone — and we mean *every
 ---
 
 ## Why You Actually Need a Wedding Website
+
+![Elegant wedding invitation and RSVP cards on a table](/images/posts/2026-05-25-how-to-create-a-wedding-website-free/image-2.jpg)
+*Photo by Stacey Vandas on Unsplash*
+
 
 ![Wedding invitation and RSVP cards on a table](/images/posts/2026-05-25-how-to-create-a-wedding-website-free/image-2.jpg)
 *Photo by Stacey Vandas on Unsplash*
@@ -36,6 +44,10 @@ The bottom line: a wedding website saves you time, reduces back-and-forth commun
 ---
 
 ## Choosing the Right Free Wedding Website Platform
+
+![Free wedding website template displayed on a desktop screen](/images/posts/2026-05-25-how-to-create-a-wedding-website-free/image-3.jpg)
+*Photo by Walls.io on Unsplash*
+
 
 ![Wedding website template displayed on a computer screen](/images/posts/2026-05-25-how-to-create-a-wedding-website-free/image-3.jpg)
 *Photo by Walls.io on Unsplash*
