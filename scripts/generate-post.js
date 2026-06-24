@@ -12,6 +12,21 @@ const TOPICS = [
   { keyword: "how to create a wedding website free", category: "Wedding Planning", affiliate: "WedSites signup" },
   { keyword: "destination wedding planning guide", category: "Wedding Planning", affiliate: "Booking.com venues" },
   { keyword: "best honeymoon resorts maldives", category: "Honeymoon Travel", affiliate: "Booking.com resorts" },
+  { keyword: "wedding budget spreadsheet free template", category: "Budget", affiliate: "budget spreadsheet download" },
+  { keyword: "best honeymoon destinations europe", category: "Honeymoon Travel", affiliate: "Booking.com hotels" },
+  { keyword: "how to choose wedding photographer", category: "Wedding Planning", affiliate: "none" },
+  { keyword: "destination wedding guest etiquette guide", category: "Wedding Planning", affiliate: "Booking.com hotels" },
+  { keyword: "honeymoon vs anniversary trip difference", category: "Honeymoon Travel", affiliate: "Viator experiences" },
+  { keyword: "wedding day timeline hour by hour", category: "Wedding Planning", affiliate: "none" },
+  { keyword: "best time of year to get married", category: "Wedding Planning", affiliate: "none" },
+  { keyword: "honeymoon destinations for adventure couples", category: "Honeymoon Travel", affiliate: "Viator experiences" },
+  { keyword: "how to save money on wedding flowers", category: "Budget", affiliate: "none" },
+  { keyword: "best japan honeymoon itinerary", category: "Honeymoon Travel", affiliate: "Booking.com hotels" },
+  { keyword: "wedding invitation wording examples", category: "Wedding Planning", affiliate: "Minted invitations" },
+  { keyword: "honeymoon resorts with private pools", category: "Honeymoon Travel", affiliate: "Booking.com resorts" },
+  { keyword: "how to negotiate wedding vendor prices", category: "Budget", affiliate: "none" },
+  { keyword: "best bridesmaid proposal gift ideas", category: "Wedding Planning", affiliate: "Kate Aspen gifts" },
+  { keyword: "honeymoon registry etiquette guests guide", category: "Registry", affiliate: "Honeyfund signup" },
 ];
 
 const SYSTEM = `You write for Veil to Voyage, a wedding and honeymoon planning blog.
