@@ -7,11 +7,19 @@ tags: ["wedding photographer", "wedding planning tips", "photography", "vendor s
 draft: false
 ---
 
+
+![Wedding photographer capturing couple during ceremony](/images/posts/2026-07-06-how-to-choose-wedding-photographer/image-1.jpg)
+*Photo by Chris on Unsplash*
+
 Your wedding photos are the one thing you'll still be pulling out twenty years from now — flipping through them on anniversaries, showing your kids, maybe even crying a little on a random Tuesday. The food will be eaten, the flowers will wilt, and the music will fade from memory, but your photographs stick around forever. That's exactly why choosing your wedding photographer deserves more thought than almost any other decision you'll make in the planning process. If you're feeling overwhelmed by where to even start, take a breath — this guide walks you through every step so you can find someone whose work makes your heart skip a beat and whose personality won't drive you crazy on the most important day of your life.
 
 ---
 
 ## Start by figuring out your style
+
+![Collection of different wedding photography styles on a mood board](/images/posts/2026-07-06-how-to-choose-wedding-photographer/image-2.jpg)
+*Photo by Fiona Murray-deGraaff on Unsplash*
+
 
 Before you open a single photographer's Instagram page, it helps to know what you're actually looking for. Wedding photography has evolved into a wide range of distinct styles, and being able to name what you love will save you hours of scrolling.
 
@@ -26,6 +34,10 @@ Spend some time on Pinterest or Instagram saving images you love without thinkin
 ---
 
 ## Set a realistic photography budget before you fall in love
+
+![Couple planning wedding budget with notebook and pen](/images/posts/2026-07-06-how-to-choose-wedding-photographer/image-3.jpg)
+*Photo by Alexa Williams on Unsplash*
+
 
 Here's the honest truth: wedding photography is one of those line items where couples most commonly experience sticker shock — and then regret cutting it. Professional wedding photographers with strong portfolios typically charge anywhere from $2,500 to $8,000 or more depending on your location, experience level, and package inclusions.
 
