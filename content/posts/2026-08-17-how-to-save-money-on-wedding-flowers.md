@@ -7,9 +7,17 @@ tags: ["wedding flowers", "budget wedding", "DIY wedding", "floral tips", "weddi
 draft: false
 ---
 
+
+![Elegant bridal bouquet with lush wedding flowers](/images/posts/2026-08-17-how-to-save-money-on-wedding-flowers/image-1.jpg)
+*Photo by Sam Lashbrooke on Unsplash*
+
 Let's be honest: wedding flowers can be one of the sneakiest budget busters on your planning spreadsheet. What starts as "we'll just do something simple" can quickly balloon into a five-figure floral invoice before you've even picked your centerpiece style. The good news? Knowing how to save money on wedding flowers doesn't mean settling for sad grocery store carnations (unless you actually love carnations — in which case, embrace them). With a little strategy and some insider know-how, you can have a genuinely beautiful, blooming wedding day without the financial hangover.
 
 ## Understand What's Actually Driving Your Floral Costs
+
+![Florist assembling a wedding floral arrangement in a studio](/images/posts/2026-08-17-how-to-save-money-on-wedding-flowers/image-2.jpg)
+*Photo by Volodymyr Lymariev on Unsplash*
+
 
 Before you can cut costs intelligently, it helps to know where your money is actually going. Florists charge for so much more than just the flowers themselves.
 
@@ -24,6 +32,10 @@ Here's what's typically baked into a floral quote:
 Once you see the full picture, you can make smarter decisions about where to pull back and where to splurge. Maybe you keep the florist for your bridal bouquet and ceremony arch but handle the cocktail hour arrangements yourself. That kind of selective approach is where real savings live.
 
 ## Choose "Budget-Friendly" Flowers That Still Look Luxurious
+
+![Lush and affordable wedding flower arrangement with carnations and greenery](/images/posts/2026-08-17-how-to-save-money-on-wedding-flowers/image-3.jpg)
+*Photo by Brett Wharton on Unsplash*
+
 
 Here's a secret that florists know and most couples don't: flower prices vary wildly based on season, origin, and perceived prestige — not necessarily on how beautiful they look in person.
 
