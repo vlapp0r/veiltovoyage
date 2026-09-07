@@ -7,11 +7,19 @@ tags: ["wedding invitations", "invitation wording", "wedding planning tips"]
 draft: false
 ---
 
+
+![Elegant wedding invitation suite on a flat lay](/images/posts/2026-08-31-wedding-invitation-wording-examples/image-1.jpg)
+*Photo by Micah & Sammie Chaffin on Unsplash*
+
 You've got the venue booked, the dress picked out, and the date circled on every calendar in your house. But then you sit down to write your wedding invitations and — blank. Total blank. It turns out that fitting the most important party of your life into a three-inch card, while also navigating family names, hosting etiquette, and whether to say "the honour of your presence" or "the pleasure of your company," is genuinely hard. Don't worry. We've pulled together real wedding invitation wording examples for every style, family situation, and formality level so you can fill in those cards with confidence and get them in the mail.
 
 ---
 
 ## Why Invitation Wording Actually Matters
+
+![Couple reviewing wedding invitation wording at a desk](/images/posts/2026-08-31-wedding-invitation-wording-examples/image-2.jpg)
+*Photo by Edu Raw on Pexels*
+
 
 Your invitation does more than hand someone a date and a time. It sets the tone for your entire wedding. A formal, engraved card tells guests to dust off their tuxedos. A playful, illustrated invite signals that flip-flops might be welcome. Getting the wording right means your guests arrive dressed appropriately, with the right expectations, and — most practically — with the correct RSVP deadline on their fridge.
 
@@ -26,6 +34,10 @@ Getting these details right is worth a little extra time — and the examples be
 ---
 
 ## Traditional and Formal Wording Examples
+
+![Formal wedding invitation with calligraphy addressing](/images/posts/2026-08-31-wedding-invitation-wording-examples/image-3.jpg)
+*Photo by Stacey Vandas on Unsplash*
+
 
 Formal invitations follow a well-established structure, and for good reason — they're clear, elegant, and universally understood. Here are a few templates to work from.
 
