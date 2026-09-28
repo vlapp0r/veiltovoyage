@@ -7,11 +7,19 @@ tags: ["wedding budget", "vendor negotiation", "save money on wedding", "wedding
 draft: false
 ---
 
+
+![Couple discussing wedding plans with a vendor](/images/posts/2026-09-14-how-to-negotiate-wedding-vendor-prices/image-1.jpg)
+*Photo by Vitaly Gariev on Unsplash*
+
 Let's be honest — most of us weren't born hagglers. The idea of looking a florist in the eye and asking for a lower price can feel about as comfortable as wearing a too-tight corset on your wedding day. But here's the thing: negotiating wedding vendor prices is completely normal, widely expected, and when done right, it's one of the most powerful ways to keep your budget intact without sacrificing the day you've been envisioning. With the average wedding in the US now costing well over $30,000, finding even a 10–15% reduction across your vendor contracts could mean thousands of dollars back in your pocket — or toward your honeymoon. So let's talk about how to do it gracefully, strategically, and without making things weird.
 
 ---
 
 ## Do Your Research Before You Ever Send an Email
+
+![Bride researching wedding vendor prices on a laptop](/images/posts/2026-09-14-how-to-negotiate-wedding-vendor-prices/image-2.jpg)
+*Photo by Christin Hume on Unsplash*
+
 
 Negotiation without knowledge is just guessing. Before you reach out to a single vendor, arm yourself with real information so you're walking into every conversation with confidence.
 
@@ -25,6 +33,10 @@ Going in prepared signals that you're a serious, organized client — and vendor
 ---
 
 ## Choose the Right Time to Have the Money Conversation
+
+![Wedding planner marking key dates on a calendar](/images/posts/2026-09-14-how-to-negotiate-wedding-vendor-prices/image-3.jpg)
+*Photo by Paico Oficial on Unsplash*
+
 
 Timing your negotiation well can make the difference between a gracious "yes" and a firm "no." There are a few windows that tend to work in your favor.
 
