@@ -7,11 +7,19 @@ tags: ["destination wedding", "wedding guest etiquette", "travel wedding", "wedd
 draft: false
 ---
 
+
+![Scenic destination wedding venue with palm trees and ocean view](/images/posts/2026-07-13-destination-wedding-guest-etiquette-guide/image-1.jpg)
+*Photo by Taylor Beach on Unsplash*
+
 You got the save-the-date in the mail, and it has a little palm tree on it — or maybe the Eiffel Tower, or a rolling Tuscan hillside. A destination wedding invitation is genuinely thrilling, but it also comes with a longer list of unspoken rules than your average Saturday-afternoon church ceremony. What do you actually owe the couple in terms of attendance? Who pays for what? Is it rude to skip the welcome dinner? If you've been spinning on questions like these, you're in the right place. This destination wedding guest etiquette guide covers everything you need to know to show up graciously, travel smartly, and celebrate the couple without accidentally committing a social faux pas.
 
 ---
 
 ## RSVP Early and Mean It
+
+![Elegant destination wedding save-the-date card with travel details](/images/posts/2026-07-13-destination-wedding-guest-etiquette-guide/image-2.jpg)
+*Photo by Lisandro Garcia on Unsplash*
+
 
 The single most important thing a destination wedding guest can do is respond quickly and honestly. Destination weddings require couples to lock in venue headcounts, catering minimums, and room blocks far in advance — sometimes six to twelve months before the date. A slow or wishy-washy RSVP creates real logistical headaches.
 
@@ -23,6 +31,10 @@ The single most important thing a destination wedding guest can do is respond qu
 ---
 
 ## Understand What the Couple Is (and Isn't) Covering
+
+![Packed suitcase and passport ready for destination wedding travel](/images/posts/2026-07-13-destination-wedding-guest-etiquette-guide/image-3.jpg)
+*Photo by Pim de Boer on Unsplash*
+
 
 Here's the part that trips up a lot of guests: attending a destination wedding means absorbing real travel costs, and that's completely normal and expected. The couple has chosen a location that matters deeply to them, and while they'll typically cover the wedding events themselves, your flights and accommodations are your own responsibility.
 
